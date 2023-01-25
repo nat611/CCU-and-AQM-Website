@@ -1,0 +1,164 @@
+/*header*/
+
+.header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    height: 100px;
+    padding: 0 30px;
+  }
+  
+  /* nav bar stuff */ 
+  .navbar {
+    margin-right: 50px;
+  }
+  
+  .navbar ul {
+    display: flex; 
+  }
+  
+  .navbar ul li {
+    position: relative; 
+    margin-right: 20px; 
+    padding-bottom: 2px;  
+  }
+  
+  .navbar a {
+    font-family: 'Trebuchet MS'; 
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Logo */
+  .logo {
+    width: 70px;
+    height: auto;
+    }
+  
+  .logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+  
+    htm {
+      box-sizing:border-box}
+  
+  *,*:before,*:after{
+      box-sizing:inherit}
+  
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      background-color: black;
+      color: white;
+  }
+  
+  h1 {
+    font-family:'Trebuchet MS';
+    font-size: 40px;
+    z-index: 10;
+    margin: 60px;
+  }
+  
+  h2 {
+    font-family: 'Trebuchet MS';
+    font-size: 20px; 
+    z-index: 10;
+  }
+  
+  h3 {
+    font-family: 'Trebuchet MS';
+    font-size: 40px; 
+    z-index: 10;
+  }
+  
+  p {
+      margin: 20px;
+      font-family: 'Trebuchet MS';
+    }
+    
+    a {
+      font-family: 'Courier New', Courier, monospace;
+      text-decoration: none;
+      color: white;
+    }
+    
+    a:hover {
+      color: grey;
+    }
+    
+    ul {
+      list-style:none; 
+    }
+    
+    li {
+      text-decoration: none;
+    }
+    
+  
+  /* to fix intro to be in center*/ 
+  .about-section {
+    text-align: center; 
+    font-family: 'Trebuchet';
+    margin-top: 70px;
+  }
+  
+  /*rows and column stuff*/ 
+  .row {
+  margin-left:20px;
+  padding: 50px; 
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-bottom: 16px;
+    padding: 0 100px;
+  }
+  
+    /* footer */
+    footer {
+      position: relative;
+      }
+    
+    footer ul {
+      justify-content: center;
+      align-items: center;
+      }
+    
+    footer ul li {
+      color: white;
+      font-size: 75%;
+      line-height: 2;
+      }
+      
+    footer ul li a {
+      color: white;
+      }
+      
+    footer ul li a:hover {
+      color: grey;
+      text-decoration: underline;
+      }
